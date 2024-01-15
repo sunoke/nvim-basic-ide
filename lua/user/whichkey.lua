@@ -89,6 +89,8 @@ function M.config()
       },
     },
 
+    ["j"] = { "<cmd>HopWord<CR>", "Hop Word" },
+
     l = {
       name = "LSP",
       a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Code Action" },

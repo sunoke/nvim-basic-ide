@@ -81,3 +81,5 @@ function M.config()
     end,
   })
 end
+
+return M
